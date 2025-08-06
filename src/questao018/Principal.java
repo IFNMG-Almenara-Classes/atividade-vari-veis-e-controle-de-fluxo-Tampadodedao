@@ -1,15 +1,21 @@
-package questao01;
+package questao018;
 import java.util.Scanner;
-public class Principal{
+public class main{
     public static void main(String[]args){
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Informe o primeiro número: ");
-        int n1 = scanner.nextInt();
+        int n = scanner.nextInt();
         System.out.println("Informe o segundo número: ");
         int n2 = scanner.nextInt();
 
-        System.out.println("O maior número é: " + ((n1>n2)? n1:n2));
-
-    }
+        if(n>n2)
+        {
+            for(int c=0; n!=n2; n++, c++)
+            {
+                double nn = Math.sqrt(n);
+                int n3 =0 ;
+                n3++;
+            }
+        }
 }
